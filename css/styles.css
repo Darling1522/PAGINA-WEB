@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #FAEEE2;
+}
+
+.grid{
+    display: grid;
+    width: 1fr;
+    background-color: blue;
+}
+
+.slide{
+    width: 1fr;
+}
+
+
