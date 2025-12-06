@@ -1,17 +1,87 @@
+@import url();
+
+
 body{
-    margin: 0;
-    font-family: sans-serif;
-    background-color: #FAEEE2;
+    font-family: 'rubik' sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
 }
 
-.grid{
-    display: grid;
-    width: 1fr;
+img{
+    width: 70%;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+
+/*MENU ACORDEON*/
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+    padding: 20px 70px;
+}
+
+.menuitem{
+    background-color: aliceblue;
+}
+
+/*MENU ACORDEON*/
+
+.titulo_acordeon{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.acordeon{
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+
+.acordeon .label{
+    position:relative;
+    padding: 10px 0;
+    font-size: 20px;
+    color: black;
+    cursor:pointer;
+}
+
+.acordeon .label::before {
+    content: "+";
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    transform: translateY(-10px);
+    color: black;
+}
+
+.acordeon .content{
+    position: relative;
+    height: 0;
+    text-align: justify;
+    overflow: hidden;
+    transition: 0.5s;
+}    
+
+.h3{
     background-color: blue;
+    color: aliceblue;
 }
 
-.slide{
-    width: 1fr;
-}
+
 
 
