@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+
+.contenedor-head{
+    background-color: red;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}
+
+.bloque_contenido{
+    display:grid;
+    grid-template-columns: 400px 300px;
+    max-width: 500px;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.bloque_texto{
+    background-color: green;
+    border: solid 2px white;
+    padding: 20px;
+}
+.bloque_image{
+    background-color: green;
+    border: solid 2px white;
+}
+
+.contenedor-body{
+    background-color: blue;
+    width: 100%;
+    height: 40vh;
+        position: relative;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+.contenedor-head{
+    position: relative;
+}
+
+.menu_head{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 40%;
+    height: 50px;
+    padding: 20px 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu_head:hover > li{
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+ul > li:nth-child(1):hover {color: blue;}
+ul > li:nth-child(2):hover {color: blue;}
+ul > li:nth-child(3):hover {color: blue;}
+ul > li:nth-child(4):hover {color: blue;}
+ul > li:nth-child(5):hover {color: blue;}
+
+
+
+.menu_head, .titulo-head{
+    color: white;
+}
+.titulo-head{
+ margin: 0;
+ display: inline-block; /*elemento en linea a elemento de bloque*/
+}
+li{
+    align-items:end;
+}
+.titulo-head{
+    padding: 15px;
+}
+.nombre_texto, .descripcion_texto , .texto, .parrafo_texto{
+    margin: 1px 10px;
+}
+
+.button_texto{
+    background-color: aqua;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.bloque_image{
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
